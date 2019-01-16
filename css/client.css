@@ -97,16 +97,36 @@ h1 {
 	background-color: whitesmoke;
 }
 
-#member1 {
-	background-image: url('../assets/member.png');
+#ross {
+	background-image: url('../assets/Ross.jpg');
 }
 
-#member2 {
-	background-image: url('../assets/member.png');
+#nicole {
+	background-image: url('../assets/Nicole.jpg');
 }
 
-#member3 {
-	background-image: url('../assets/member.png');
+#isaac {
+	background-image: url('../assets/Isaac.jpg');
+}
+
+#connor {
+	background-image: url('../assets/Connor.jpg');
+}
+
+#landon {
+	background-image: url('../assets/Landon.jpg');
+}
+
+#andrew {
+	background-image: url('../assets/Andrew.jpg');
+}
+
+#possum {
+	background-image: url('../assets/Possum.jpg');
+}
+
+#ansh {
+	background-image: url('../assets/Ansh.jpg');
 }
 
 /*---------- contact -------------*/ 
