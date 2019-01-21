@@ -13,11 +13,11 @@ body {
 
 a{
     text-decoration: none;
-    color: #f46242;
+    color: #17685a;
 }
 
 h1 {
-	color: #f46242;
+	color: #17685a;
 }
 
 
@@ -28,6 +28,7 @@ h1 {
 	text-align: center;
 	margin-left: 2.5vw;
 	font-size: 25px;
+	color: #0b319e;
 }
 
 #navbar {
@@ -43,6 +44,10 @@ h1 {
 #navbar ul {
     display: inline;
 }
+#navbar li:hover {
+	color: #0b319e;
+}
+
 
 #navbar li {
     display: inline;
@@ -89,6 +94,8 @@ img{
 	background-color: rgba(250,250,250,0.5);
 	text-align: center;
 	margin: 0;
+	padding-top: 50px;
+	font-size: 2em;
 }
 
 /*----------- about ----------------*/
@@ -140,11 +147,12 @@ img{
 }
 
 #contact p {
-	color: #f46242;
+	color: #17685a;
 }
 
 #contact p:hover {
 	cursor: pointer;
+	color: #0b319e;
 }
 
 /*--------- classes ----------------*/
