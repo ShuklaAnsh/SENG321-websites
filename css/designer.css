@@ -1,0 +1,121 @@
+html, body {
+	margin: 0 auto;
+	font-family: 'Amiko', sans-serif;
+	background-color: whitesmoke;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Arial', serif;
+}
+
+/* nav */
+
+nav {
+	position: fixed;
+	height: 74px;
+	width: 100%;
+	background-color: #282923;
+	box-shadow: 0px 5px 5px #7C7C7C;
+	z-index: 100;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+	color: whitesmoke;
+	font-size: 25px;
+	line-height: 74px;
+	padding: 21px 30px 21px 30px;
+}
+
+nav ul li:hover{
+	background-color: #464646;
+	cursor: pointer;
+}
+
+/* about */
+
+#about {
+	padding-top:74px;
+	width: 100%;
+	height: 400px;
+	background-color: whitesmoke;
+}
+
+/* team */
+
+#team-container h1 {
+	text-align: center;
+}
+
+#team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #282923;
+}
+
+#team div {
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* documents */
+
+#documents {
+	width: 100%;
+	height: 400px;
+	background-color: #7DEA89;
+}
+
+/* contact */
+
+#contact {
+	width: 100%;
+	height: 400px;
+	background-color: #AA1414;
+}
+
+/* project */
+
+#project {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: #FF81EB;
+	box-shadow: 0px 19px 20px #BBBBBB;
+	z-index: 1;
+}
+
+/* disclaimer */
+
+#disclaimer {
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	background-color: white;
+}
+
+#disclaimer p {
+	padding: 20px;
+}
+
+@media (max-width: 400px) {
+  #team {
+    display: block;
+  }
+}
