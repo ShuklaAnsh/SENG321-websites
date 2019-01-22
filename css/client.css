@@ -8,7 +8,8 @@ html {
 
 body {
     margin: 0 auto;
-    font-family:'Lato', 'Helvetica', sans-serif;
+    font-family:'Helvetica', 'Arial', sans-serif;
+    font-size: div 
 }
 
 a {
@@ -45,11 +46,6 @@ h1 {
     display: inline;
 }
 
-#navbar li:hover {
-	color: #0b319e;
-}
-
-
 #navbar li {
     display: inline;
     float: right;
@@ -58,7 +54,8 @@ h1 {
 }
 
 #navbar li:hover {
-    background-color: rgba(230, 230, 230, 0.2);
+    color: #0b319e;
+    background-color: rgba(230, 230, 230, 0.5);
 }
 
 #navbar li:nth-child(1) {
@@ -164,7 +161,7 @@ img{
 /*--------- classes ----------------*/
 
 .team-member {
-    height:  200px;
+    min-height:  200px;
     width:   95%;
     background-color:   white;
     padding: 10px;

@@ -16,7 +16,7 @@ h1 {
 
 nav {
 	position: fixed;
-	height: 74px;
+	min-height: 74px;
 	width: 100%;
 	background-color: #282923;
 	z-index: 100;
@@ -69,12 +69,57 @@ nav ul li:hover{
 }
 
 #team div {
-  background-color: #f1f1f1;
-  width: 400px;
-  height: 400px;
-  margin: 10px;
-  text-align: center;
-  font-size: 30px;
+	background-color: #f1f1f1;
+	width: 400px;
+	height: 400px;
+	margin: 2.5vw;
+	text-align: center;
+	font-size: 30px;
+	/* background img */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hidden-text {
+	visibility: hidden;
+}
+
+#team div:hover .hidden-text{
+	visibility: visible;
+	background-color: rgba(60, 60, 60, 0.4);
+}
+
+#ansh {
+	background-image: url(../assets/Ansh.jpg);
+}
+
+#andrew {
+	background-image: url(../assets/Andrew.jpg);
+}
+
+#possom {
+	background-image: url(../assets/Possom.jpg);
+}
+
+#ansh {
+	background-image: url(../assets/Ansh.jpg);
+}
+
+#ansh {
+	background-image: url(../assets/Ansh.jpg);
+}
+
+#ansh {
+	background-image: url(../assets/Ansh.jpg);
+}
+
+#ansh {
+	background-image: url(../assets/Ansh.jpg);
+}
+
+#ansh {
+	background-image: url(../assets/Ansh.jpg);
 }
 
 /* documents */
