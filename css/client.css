@@ -11,13 +11,13 @@ body {
     font-family:'Lato', 'Helvetica', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
-    color: #17685a;
+    color: #1a48cc;
 }
 
 h1 {
-	color: #17685a;
+	color: #1a48cc;
 }
 
 
@@ -44,6 +44,7 @@ h1 {
 #navbar ul {
     display: inline;
 }
+
 #navbar li:hover {
 	color: #0b319e;
 }
@@ -109,6 +110,10 @@ img{
 	background-color: whitesmoke;
 }
 
+#team p {
+    margin-left: 160px;
+}
+
 #ross {
 	background-image: url('../assets/Ross.jpg');
 }
@@ -147,40 +152,40 @@ img{
 }
 
 #contact p {
-	color: #17685a;
+	color: #1a48cc;
 }
 
 #contact p:hover {
 	cursor: pointer;
 	color: #0b319e;
+    font-style: italic;
 }
 
 /*--------- classes ----------------*/
 
 .team-member {
-    height:200px;
-    width: 95%;
-    background-color: white;
+    height:  200px;
+    width:   95%;
+    background-color:   white;
     padding: 10px;
-    margin: 10px auto 10px auto;
+    margin:  10px auto 10px auto;
+    border-radius: 10px;
 }
 
 .member-pic {
-    width:100px;
-    height:100px;
-    border-radius: 50px;
+    width:  155px;
+    height: 155px;
+    border-radius: 10px;
     float: left;
     margin: 20px;
-    border: 1px solid black;
-    background-color: white;
-    background-size: cover;
+    border: 2px solid darkgrey;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; 
 }
 
 .centered {
-    width: 95%;
+    width:  95%;
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 10px;
