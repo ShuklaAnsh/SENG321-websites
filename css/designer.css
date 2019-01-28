@@ -65,9 +65,23 @@ nav #company {
 
 /* header */
 
+#banner {
+	position: relative;
+	background-image: url('../assets/designer_banner.jpg');
+	margin-top:74px;
+	width: 100%;
+	height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#banner_img {
+	width: 100%;
+}
+
 #header {
 	position: relative;
-	margin-top:74px;
+	/*margin-top:74px;*/
 	width: 100%;
 	height: 75vh;
 	background: whitesmoke;
@@ -330,6 +344,7 @@ nav #company {
 
 .hidden-text {
 	visibility: hidden;
+	user-select: none;
 }
 
 .unbold-h1 {
